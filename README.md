@@ -9,7 +9,7 @@ docker run -d -p 27017:27017 --name=genome-db -e MONGO_INITDB_ROOT_USERNAME=root
 ```
 
 # Dataset
-We must download the The Cancer Genome Atlas (TCGA) Dataset locally in the default folder called downloaded_data, previous to import in mongoDB
+We must download The Cancer Genome Atlas (TCGA) Dataset locally in the default folder called downloaded_data, previous to import in mongoDB
 
 # Execution
 Execute this command to import the dataset in mongoDB:
