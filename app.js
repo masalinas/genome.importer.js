@@ -2,7 +2,7 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const mongoose = require('mongoose');
 
-const PATH_DATA = '/home/miguel/temp/downloaded_data';
+const PATH_DATA = './downloaded_data';
 
 // configure mongo connection
 mongoose.pluralize(null);
