@@ -19,3 +19,7 @@ npm install
 
 node --max_old_space_size=8048 app.js
 ```
+
+MongoDB result:
+
+![Node-RED Maps Dashboard](captures/genome-db.png)
