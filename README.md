@@ -15,7 +15,7 @@ We must download The Cancer Genome Atlas (TCGA) Dataset locally in the default f
 Execute this command to import the dataset in mongoDB:
 
 ```
-npm installl
+npm install
 
 node --max_old_space_size=8048 app.js
 ```
