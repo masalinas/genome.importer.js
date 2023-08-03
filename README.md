@@ -1,11 +1,11 @@
 # Description
-Genome Importer JS
+Genome Importer Mongo JS
 
 # Infrastructure
 Execute this command to create the infrastructure about database:
 
 ```
-docker run -d -p 27017:27017 --name=genome-db -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=password -e MONGO_INITDB_DATABASE=genome mongo:latest
+docker run -d -p 27017:27017 --name=genome-mongo-db -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=password -e MONGO_INITDB_DATABASE=genome mongo:latest
 ```
 
 # Dataset
